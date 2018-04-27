@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "useBuiltIns": true,
+      "loose": true,
+    }]
+  ],
+  "plugins": [
+    "transform-custom-element-classes",
+    "transform-function-bind",
+    "transform-class-properties",
+    "transform-object-rest-spread"
+  ]
+}

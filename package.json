@@ -1,0 +1,30 @@
+{
+  "name": "ramda-and-recompose-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/takahiro-saeki/ramda-and-recompose-example.git",
+  "author": "Saeki, Takahiro <ts-takahiro.saeki@rakuten.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hoist-non-react-statics": "^2.5.0",
+    "ramda": "^0.25.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "recompose": "^0.27.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.1"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  }
+}
